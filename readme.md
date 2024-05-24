@@ -19,9 +19,9 @@ opacity
 dulceria.html carrusel ln 18
 
 align items 
-peli_1.html ln 46
-dulceria.html ln 23 , 37
-style.css ln 23, 41, 58, 184, 201, 298, 314, 380
+individual peli_1.html ln 46
+individual dulceria.html ln 23 , 37
+style.css ln 23, 41, 58, 184, 201, 298, individual: 314, 380
 
 flex shrink y flex basis
 dulceria html ln 31 
