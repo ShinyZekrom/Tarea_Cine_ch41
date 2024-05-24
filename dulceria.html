@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dulceria Cinemix</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .imgcombo{
+            width: 100%;
+        }
+        .carrusel{
+            text-align: center;
+        }
+        .carrusel img{
+            width: 50%;
+            opacity: 0.7;
+        }
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cardsdulce{
+            margin: 50px;
+        }
+        .cardsdulce2{
+            margin: 50px;
+        }
+        .dulces {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .producto {
+            flex: 1 0 200px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .producto img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        @media(max-width:768px) {
+            .cardsdulce{
+            margin: 100px;
+        }
+        .cardsdulce2{
+            margin: 100px;
+            align-items: center;
+        }
+        }
+        @media(max-width:576px){
+            .cardsdulce{
+            margin: 50px;
+        }
+        .cardsdulce2{
+            margin: 50px;
+        }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" target="_blank">Inicio</a>
+            <a href="./index.html">Cartelera</a>
+            <a href="./formulario.html" target="_blank">Registrate</a>
+            <a href="./dulceria.html">Dulcería</a>
+        </nav>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   <!--Seccion de carrusel-->
+    <div class="carrusel">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="imgcombo"src="./src/dulceria/combo2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="imgcombo"src="./src/dulceria/combo3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="imgcombo"src="./src/dulceria/combo1.avif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="imgcombo"src="./src/dulceria/combo4.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+    <!--Seccion de tarjetas-->
+    <fieldset class="combocards">
+        <div class="cardsdulce">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Palomitas</h5>
+                        <h3 class="nota">Disfruta de las mejores palomitas, combina tus sabores preferidos, solo aquí en CineMix</h3>
+                        <img class="imgcombo"src="https://yosoyvendedor.com/source/5294cf2ad1ffdfc521c4701a1dcde494/Productos/Palomitas.jpeg" alt="palomitas"><br>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nachos</h5>
+                        <h3 class="nota">Disfruta de las mejores palomitas, combina tus sabores preferidos, solo aquí en CineMix</h3>
+                        <img class="imgcombo"src="https://pbs.twimg.com/media/FDe-3qHXsAAS_N_.jpg" alt="nachos"><br>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cardsdulce2">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Frappe</h5>
+                        <img class="imgcombo"src="https://tb-static.uber.com/prod/image-proc/processed_images/aeca4d9d988252927c0075d5d7ca19af/a19bb09692310dfd41e49a96c424b3a6.jpeg" alt="frappe"><br>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrescos</h5>
+                        <img class="imgcombo"src="https://www.compraloaquiviajes.com/wp-content/uploads/2013/12/Cinepolis-Refrescos.png" alt="refrescos"><br>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+   
+    <div class="dulces">
+        <div class="producto">
+          <img src="https://d1zc67o3u1epb0.cloudfront.net/media/catalog/product/1/5/15782_1.jpg?width=265&height=390&store=default&image-type=image" alt="chocolate">
+          <h3>chocolate M&M's</h3>
+          <p>¡Disfruta de nuestros chocolates</p>
+          <p>Precio: $25.00</p>
+        </div>
+        <div class="producto">
+          <img src="https://www.skittles.mx/sites/g/files/fnmzdf1476/files/migrate-product-files/xvxhx3wfi6vorkbppp7q.png" alt="gomitas">
+          <h3>Gomitas</h3>
+          <p>Disfruta de nuestros dulces</p>
+          <p>Precio: $15.00</p>
+        </div>
+        <div class="producto">
+            <img src="https://assets.unileversolutions.com/v1/45763639.png" alt="helado">
+            <h3>Corneto</h3>
+            <p>Disfruta de nuestros helados</p>
+            <p>Precio: $30.00</p>
+          </div>
+      </div>
+      
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>
