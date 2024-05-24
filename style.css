@@ -74,8 +74,8 @@ body {
         text-align: center;
         width: 200px;
     }
-
-    @media(max-width:576px){ /*Acomodo para cel*/
+/*La literatura indica que el mínimo es 576px, sin embargo hay muchos equipos que ún utilizan 425px*/
+    @media(max-width:424px){ /*Acomodo para cel*/
         header img {
             max-width: 100%; /* La imagen se ajusta automáticamente al ancho del contenedor */
             height: auto; /* La altura se ajusta automáticamente manteniendo la proporción */}
